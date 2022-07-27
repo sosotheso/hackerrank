@@ -1,0 +1,6 @@
+n = int(input())
+arr = list(map(int, input().split()))
+m = max(arr)
+arr = list(filter(lambda x: x != m, arr))
+m2 = max(arr)
+print(m2)
